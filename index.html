@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0fad84ab50.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="measure-bar"></div>
+  <main>
+
+    <section class="notifications">
+      <div class="notifications__heading">
+        <h1>Notifications</h1>
+        <div class="notifications__heading-info">
+          3
+        </div>
+        <button class="notifications__heading-btn">
+          Mark all as read
+        </button>
+      </div>
+      <div class="notifications__boxes">
+
+        <div class="notifications__box active">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Mark Webber </span>
+              reacted to your recent post <span class="post-title">My first tournament today!</span> <span
+                class="group-title"></span><span class="active-mark"><i class="fa-solid fa-circle"></i></span>
+            </h2>
+            <p class="time-info">1m ago</p>
+            <div class="notifications__box-message">
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications__box active">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Angela Gray </span>
+              followed you <span class="post-title"></span> <span class="group-title"></span><span
+                class="active-mark"><i class="fa-solid fa-circle"></i></span>
+            </h2>
+            <p class="time-info">5m ago</p>
+            <div class="notifications__box-message ">
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications__box active">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Jacob Thompson </span>
+              has joined your group <span class="post-title"></span> <span class="group-title">Chess Club</span><span
+                class="active-mark"><i class="fa-solid fa-circle"></i></span>
+            </h2>
+            <p class="time-info">1 day ago</p>
+            <div class="notifications__box-message ">
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications__box">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Rizky Hasanuddin </span>
+              sent you a private message <span class="post-title"></span> <span class="group-title"></span><span
+                class="active-mark"><i class="fa-solid"></i></span>
+            </h2>
+            <p class="time-info">5 days ago</p>
+            <div class="notifications__box-message show">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications__box">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Kimberly Smith </span>
+              commented on your picture <span class="post-title"></span> <span class="group-title"></span><span
+                class="active-mark"><i class="fa-solid"></i></span>
+            </h2>
+            <p class="time-info">1 week ago</p>
+
+            <div class="notifications__box-message">
+            </div>
+          </div>
+          <div class="picture">
+            <img src="./assets/images/image-chess.webp" alt="playing chess">
+          </div>
+        </div>
+
+        <div class="notifications__box">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Nathan Peterson </span>
+              reacted to your recent post <span class="post-title">5 end-game strategies to increase your win
+                rate</span> <span class="group-title"></span><span class="active-mark"><i class="fa-solid "></i></span>
+            </h2>
+            <p class="time-info">2 weeks ago</p>
+            <div class="notifications__box-message">
+            </div>
+          </div>
+        </div>
+
+        <div class="notifications__box">
+          <div class="notifications__box-img">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="profile picture">
+          </div>
+          <div class="notifications__box-text">
+            <h2>
+              <span class="user">Anna Kim </span>
+              left the group <span class="post-title"></span> <span class="group-title">Chess Club</span><span
+                class="active-mark"><i class="fa-solid "></i></span>
+            </h2>
+            <p class="time-info">2 weeks ago</p>
+            <div class="notifications__box-message">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/graqu" target="_blank">@graqu</a>
+    </p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
